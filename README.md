@@ -4,6 +4,7 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 ## Table of Content
 - [Links](#Links)
 - [Features](#Features)
+- [API Documentation](#APIDocs)
 
 <a name="Links"></a>
 ## Links:
@@ -18,3 +19,7 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 * **Multi-API** *Asteroid X Has Two Apis, KRNL And Fluxus,*
 * **Undetectability** *We Provide You With A Very Good And Undetectable Exploit,*
 * **Scripts** *Our Exploit Can Run 98% Of Scripts And Has Own Script Hub,*
+
+<a name="APIDocs"></a>
+## API Documentation
+- [KRNL](https://krnl.place/predocs.html)
