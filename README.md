@@ -5,6 +5,7 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 - [Links](#Links)
 - [Features](#Features)
 - [API Documentation](#APIDocs)
+- [Copyright](#Copyright)
 
 <a name="Links"></a>
 ## Links:
@@ -26,3 +27,6 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 <a name="APIDocs"></a>
 ## API Documentation
 - [KRNL](https://krnl.place/predocs.html)
+
+<a name="Copyright"></a>
+## Copyright © AstroTeam, 2020-2022
