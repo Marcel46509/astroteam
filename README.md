@@ -29,9 +29,10 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 - [KRNL](https://krnl.place/predocs.html)
 
 <a name="SupportedExa"></a>
-## Supported Examples
-- Drawing
-```
+### Supported Examples
+## Drawing
+- Drawing.new
+```lb
 <table> Drawing.new(<string> type)
     Properties:
     <bool> Visible (false)
