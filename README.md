@@ -9,6 +9,7 @@ AstroTeam Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 
 <a name="Links"></a>
 ## Links:
+- [Asteroid X - Website](https://marcel46509.github.io/astroteam/index.html)
 - [Download Asteroid X](https://marcel46509.github.io/astroteam/Download.html)
 - [Discord Community](https://dsc.gg/asteroidteam/)
 * Other Links:
