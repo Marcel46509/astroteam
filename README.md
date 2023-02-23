@@ -11,7 +11,7 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 - [Download Asteroid X](https://marcel46509.github.io/astroteam/Download.html)
 - [Discord Community](https://dsc.gg/asteroidteam/)
 
-# API Links:
+## API Links:
 - [KRNL](https://krnl.place/)
 - [FLUXUS](https://fluxteam.net/)
 
