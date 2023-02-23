@@ -28,22 +28,6 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 ## API Documentation
 - [KRNL](https://krnl.place/predocs.html)
 
-<a name="SupportedExa"></a>
-### Supported Examples
-## Drawing
-- Drawing.new
-```lb
-<table> Drawing.new(<string> type)
-    Properties:
-    <bool> Visible (false)
-    <number> Transparency (1)
-    <int> ZIndex (0)
-    <Color3> Color (0, 0, 0)
-
-    Methods:
-    <void> Remove
-```
-
 <a name="Copyright"></a>
 ## Copyright
 - © AstroTeam, 2020-2022,
