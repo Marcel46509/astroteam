@@ -11,6 +11,10 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 - [Download Asteroid X](https://marcel46509.github.io/astroteam/Download.html)
 - [Discord Community](https://dsc.gg/asteroidteam/)
 
+# API Links:
+- [KRNL](https://krnl.place/)
+- [FLUXUS](https://fluxteam.net/)
+
 <a name="Features"></a>
 ## Features
 
@@ -18,7 +22,7 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 * **Stability** *Asteroid X Is Very Stable And Should Have No Problems,*
 * **Multi-API** *Asteroid X Has Two Apis, KRNL And Fluxus,*
 * **Undetectability** *We Provide You With A Very Good And Undetectable Exploit,*
-* **Scripts** *Our Exploit `Can Run 98%` Of Scripts And Has Own Script Hub,*
+* **Scripts** *Our Exploit Can Run 98% Of Scripts And Has Own Script Hub,*
 
 <a name="APIDocs"></a>
 ## API Documentation
