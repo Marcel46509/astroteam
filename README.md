@@ -1,5 +1,5 @@
 # AstroTeam Website
-Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
+AstroTeam Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 
 ## Table of Content
 - [Links](#Links)
