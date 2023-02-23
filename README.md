@@ -30,4 +30,4 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 
 <a name="Copyright"></a>
 ## Copyright
-- © AstroTeam, 2020-2022,
+- © AstroTeam, 2020-2023,
