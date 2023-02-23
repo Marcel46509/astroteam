@@ -29,4 +29,5 @@ Astro Team Is Small Company What Is Creating Hacks/Scripts For Game Roblox,
 - [KRNL](https://krnl.place/predocs.html)
 
 <a name="Copyright"></a>
-## Copyright © AstroTeam, 2020-2022
+## Copyright © 
+- AstroTeam, 2020-2022
