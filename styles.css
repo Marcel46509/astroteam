@@ -2,6 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+::-webkit-scrollbar {
+    width: 15px;
+    background: rgb(36, 36, 36);
+    opacity: 50%;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3d3d3d;
+    border-radius: 24px;
+    transition: 200ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4b4b4b;
+    cursor:pointer;
+}
+
 img2 {
     cursor: pointer;
     transition: all 0.5s ease 0s;
@@ -14,7 +32,7 @@ img2:hover {
 /* Backgroud */
 
 body {
-    background-image: url("assets/images/bg.jpg");
+    background-image: url("assets/images/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -24,6 +42,12 @@ body {
 
 html {
     background-color: #0000;
+}
+
+/* Fix2 */
+
+.fix {
+    z-index:1000;
 }
 
 /* Siemka */
@@ -43,11 +67,21 @@ li, a, button {
     text-decoration: none;
 }
 
+.blured {
+    backdrop-filter: blur(3px);
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    background: rgba(6,6,6, 0.5);
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10%;
 }
 
 .nav_links {
@@ -71,32 +105,18 @@ header {
         filter: blur(12px);
         position: absolute;
 }
-
-.universalbar {
-	width: 100%;
-	margin: auto;
-	padding: 35px 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-    filter: blur(2.3px);
-    background-color: #262424;
-}
 	
 .navbar {
-	width: 85%;
-	margin: auto;
-	padding: 35px 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    filter: blur(0.3px);
+        filter: blur(0.3px);
 }
 
 .navbar ul li{
 	list-style: none;
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 8px;
 	position: relative;
 }
 
@@ -109,7 +129,7 @@ header {
 	content: '';
 	height: 3px;
 	width: 0;
-	background: #4c05ff;
+	background: white;
 	position: absolute;
 	left: 0;
 	bottom: -10px;
@@ -121,26 +141,27 @@ header {
 }
 
 .navbar h1{
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 19px;
 	color: white;
 	padding-left: 1.2%;
 	position: relative;
-	left: -35px;
+	left: -13px;
 }
 
 .logos{
-	width: 50px;
+	width: 45px;
 	cursor: pointer;
-	position: relative;
-	left: -65px;
-	top: -5px;
+	position: fixed;
+	left: 7px;
+	top: 9px;
+	z-index: 2;
 }
 
 .content{
 	width: 100%;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: white;
@@ -148,13 +169,13 @@ header {
 }
 
 .content h1{
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Montserrat", Lato;
 	font-size: 70px;
 	margin-top: 80px;
 }
 
 .content p{
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	margin: 20px auto;
 	font-weight: 100;
 	line-height: 30px;
@@ -179,27 +200,64 @@ header {
     text-decoration: none;
 }
 
+.footerfix {
+    width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    left: 0%;
+    background-color: Black;
+    top: 100%;
+}
+
+.footerfix h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.downed-content{
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	transform: translateY(0%);
+	text-align: center;
+	color: white;
+	left: -0px;
+        background-color: Black;
+}
+
+.downed-content h1{
+	font-family: "Montserrat", Lato;
+	font-size: 35px;
+	margin: 20px auto;
+}
+
+.downed-content p{
+	font-family: "Montserrat", sans-serif;
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 30px;
+	font-size: 20px;
+}
+
 button {
     padding: 5px 15px;
     background-color: rgb(20, 20, 20);
     color: rgb(161, 159, 156);
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Montserrat", Lato;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.8s;
 }
 
 button:hover {
 	color: rgb(255, 255, 255);
 	background-color: rgb(15, 15, 15);
-}
-
-LoadAnimation1 {
-    animation-name: LoadAnim1;
-    animation-duration: 1.8s;
-    animation-iteration-count: 1;
-    transition: 1.8s;
 }
 
 LoadAnimation1 {
@@ -216,8 +274,8 @@ LoadAnimation1 {
 .UNCBadges {
     width: 30%;
     position: absolute;
-    top: 70px;
-    left: 60px;
+    top: 120px;
+    left: 0px;
     transform: translateY(-50%);
     text-align: left;
     color: white;
@@ -225,4 +283,4 @@ LoadAnimation1 {
     height: auto;
 }
 
-/* End */
+/* End Suuuuuuweeeeeeeeeeeeeee */
