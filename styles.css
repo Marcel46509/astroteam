@@ -15,11 +15,6 @@
     transition: 200ms;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #4b4b4b;
-    cursor:pointer;
-}
-
 img2 {
     cursor: pointer;
     transition: all 0.5s ease 0s;
@@ -283,4 +278,4 @@ LoadAnimation1 {
     height: auto;
 }
 
-/* End Suuuuuuweeeeeeeeeeeeeee */
+/* End */
