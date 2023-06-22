@@ -269,8 +269,8 @@ LoadAnimation1 {
 .UNCBadges {
     width: 30%;
     position: absolute;
-    top: 120px;
-    left: 0px;
+    top: 90px;
+    left: -7px;
     transform: translateY(-50%);
     text-align: left;
     color: white;
