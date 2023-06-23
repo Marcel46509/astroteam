@@ -45,6 +45,10 @@ html {
     z-index:1000;
 }
 
+.favfont {
+    font-family: "Montserrat", sans-serif;
+}
+
 /* Siemka */
 
 * {
@@ -198,7 +202,7 @@ header {
 .footerfix {
     width: 100%;
     position: absolute;
-    transform: translateY(-50%);
+    transform: translateY(-0%);
     text-align: center;
     color: white;
     left: 0%;
@@ -231,9 +235,19 @@ header {
 	margin: 20px auto;
 }
 
+.downed-content h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+.downed-content h3{
+	font-family: "Montserrat", Lato;
+	font-size: 35px;
+	margin: 10px auto;
+}
+
 .downed-content p{
 	font-family: "Montserrat", sans-serif;
-	margin: 20px auto;
+	margin: 5px auto;
 	font-weight: 100;
 	line-height: 30px;
 	font-size: 20px;
