@@ -12,46 +12,46 @@ let home = `
 </div>
 
 <div class="downed-content">
-<h1>Features</h1>
+<h3>Features</h3>
 
-<div class="cfix justify-content-center" style="margin-top: 20px;display: flex;align-items: center;justify-content: center;--bs-gutter-y: 0;display: flex;flex-wrap: wrap;margin-top: calc(-1*var(--bs-gutter-y));margin-right: calc(-0.5*var(--bs-gutter-x));margin-left: calc(-0.5*var(--bs-gutter-x));">
-<div style="margin: 0px;border-right-width: 0px;border-right-style: solid;width: 376px;padding-top: 6px;padding-bottom: 6px;">
+<div class="cfix justify-content-center MainDivFix">
+<div class="BoxDivFix">
       <div class="cfix">
             <div class="px-3">
-             <h2 style="font-family: Inter, sans-serif;font-weight: bold;">Simple UI</h4>
-                <p style="font-family: Inter, sans-serif;">The UI Is Very Simple And Easy To Use,</p>
+             <h2 style="font-weight: bold;">Simple UI</h4>
+                <p class="favfont">The UI Is Very Simple And Easy To Use,</p>
             </div>
       </div>
 </div>
-<div style="margin: 0px;border-right-width: 0px;border-right-style: solid;width: 376px;padding-top: 6px;padding-bottom: 6px;">
+<div class="BoxDivFix">
       <div class="cfix">
             <div class="px-3">
-             <h2 style="font-family: Inter, sans-serif;font-weight: bold;">Stability</h4>
-                <p style="font-family: Inter, sans-serif;">Asteroid X Is Very Stable And Should Have No Problems,</p>
+             <h2 style="font-weight: bold;">Stability</h4>
+                <p class="favfont">Asteroid X Is Very Stable And Should Have No Problems,</p>
             </div>
       </div>
 </div>
-<div style="margin: 0px;border-right-width: 0px;border-right-style: solid;width: 376px;padding-top: 6px;padding-bottom: 6px;">
+<div class="BoxDivFix">
       <div class="cfix">
             <div class="px-3">
-             <h2 style="font-family: Inter, sans-serif;font-weight: bold;">Multi-API</h4>
-                <p style="font-family: Inter, sans-serif;">Asteroid X Has Two Apis, KRNL And Fluxus,</p>
+             <h2 style="font-weight: bold;">Multi-API</h4>
+                <p class="favfont">Asteroid X Has Two Apis, KRNL And Fluxus,</p>
             </div>
       </div>
 </div>
-<div style="margin: 0px;border-right-width: 0px;border-right-style: solid;width: 376px;padding-top: 6px;padding-bottom: 6px;">
+<div class="BoxDivFix">
       <div class="cfix">
             <div class="px-3">
-             <h2 style="font-family: Inter, sans-serif;font-weight: bold;">Undetectability</h4>
-                <p style="font-family: Inter, sans-serif;">We Provide You With A Very Good And Undetectable Exploit,</p>
+             <h2 style="font-weight: bold;">Undetectability</h4>
+                <p class="favfont">We Provide You With A Very Good And Undetectable Exploit,</p>
             </div>
       </div>
 </div>
-<div style="margin: 0px;border-right-width: 0px;border-right-style: solid;width: 376px;padding-top: 6px;padding-bottom: 6px;">
+<div class="BoxDivFix">
       <div class="cfix">
             <div class="px-3">
-             <h2 style="font-family: Inter, sans-serif;font-weight: bold;">Scripts</h4>
-                <p style="font-family: Inter, sans-serif;">Our Exploit Can Run 98% Of Scripts And Has Own Script Hub,</p>
+             <h2 style="font-weight: bold;">Scripts</h4>
+                <p class="favfont">Our Exploit Can Run 98% Of Scripts And Has Own Script Hub,</p>
             </div>
       </div>
 </div>
