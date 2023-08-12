@@ -9,7 +9,7 @@ let download = `
 <div>
 
 <a href="https://link-center.net/432961/asteroid-x-bootstrapper-3" target="_blank" rel="nofollow"><button type="button">Linkvertise</button></a>
-<a href="https://link-center.net/432961/asteroid-x-bootstrapper-2" target="_blank" rel="nofollow"><button type="button">LV Installer</button></a>
+<a href="https://link-center.net/432961/asteroid-x-bootstrapper-3" target="_blank" rel="nofollow"><button type="button">LV Installer</button></a>
 
 </div>
 </div>
