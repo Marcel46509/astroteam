@@ -27,7 +27,7 @@ img2:hover {
 /* Backgroud */
 
 body {
-    background-image: url("assets/images/bg2.jpg");
+    background-image: url("../images/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -206,7 +206,7 @@ header {
     text-align: center;
     color: white;
     left: 0%;
-    background-color: Black;
+    background-color: #0000;
     top: 100%;
 }
 
