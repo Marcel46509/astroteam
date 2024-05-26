@@ -5,7 +5,14 @@ let home = `
 
 <p>The end of the era</p>
 
-<p>Some years ago, Marcel_Wakacje created his first project, Named KL Exploit. Later, he renamed it to Asteroid X, later upgraded it and made version V2 and last V3 - asteroid wasn't popular at all but made me a lot of smile and good memories. It was awesome to make this type of project, but good things always end. Byfron has been released, and current asteroid api's are not supporting Roblox anymore.</p>
+<p>
+A few years ago, Marcel_Wakacje created his first project, called KL 
+Exploit. Later he renamed it to Asteroid X, later he updated it and made 
+V2 and finally V3 - Asteroid wasn't popular at all, but it gave me a lot of 
+a lot of fun and good memories. It was great to do this kind of 
+but good things must come to an end. Byfron has been released and 
+The current Asteroid API's no longer support Roblox.
+</p>
 
 <div>
 <p>Thanks everyone for all the support.</p>
