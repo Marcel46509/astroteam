@@ -1,34 +1,29 @@
 # AstroTeam Website
-© AstroTeam,
+© AstroTeam, 2020-2023
 
-## Table of Content
-- [Links](#Links)
-- [Features](#Features)
-- [API Documentation](#APIDocs)
-- [Copyright](#Copyright)
+## Table of Contents
+- [Links](#links)
+- [Features](#features)
+- [API Documentation](#api-documentation)
+- [Copyright](#copyright)
 
-<a name="Links"></a>
 ## Links
 - [Asteroid X - Website](https://marcel46509.github.io/astroteam/index.html)
 - [Download Asteroid X](https://marcel46509.github.io/astroteam/Download.html)
 - [Discord Community](https://dsc.gg/asteroidteam/)
-* Other Links
-- [KRNL](https://krnl.place/)
-- [FLUXUS](https://fluxteam.net/)
+- Other Links
+  - [KRNL](https://krnl.place/)
+  - [FLUXUS](https://fluxteam.net/)
 
-<a name="Features"></a>
 ## Features
+- **Simple UI:** The user interface is very simple and easy to use.
+- **Stability:** Asteroid X is very stable and should have no problems.
+- **Multi-API:** Asteroid X supports two APIs, KRNL and Fluxus.
+- **Undetectability:** We provide you with a highly effective and undetectable exploit.
+- **Scripts:** Our exploit can run 98% of scripts and includes its own script hub.
 
-* **Simple UI** *The UI Is Very Simple And Easy To Use,*
-* **Stability** *Asteroid X Is Very Stable And Should Have No Problems,*
-* **Multi-API** *Asteroid X Has Two Apis, KRNL And Fluxus,*
-* **Undetectability** *We Provide You With A Very Good And Undetectable Exploit,*
-* **Scripts** *Our Exploit Can Run 98% Of Scripts And Has Own Script Hub,*
-
-<a name="APIDocs"></a>
 ## API Documentation
 - [KRNL](https://krnl.place/predocs.html)
 
-<a name="Copyright"></a>
 ## Copyright
-- © AstroTeam, 2020-2023,
+© AstroTeam, 2020-2023
