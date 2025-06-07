@@ -1,0 +1,46 @@
+.copy-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(3, 3, 3, 0.827);
+    border-radius: 1em;
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    width: fit-content;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.copy-container:has(input:focus) {
+    background-color: rgba(10, 10, 10, 0.827);
+    color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.171);
+}
+
+.copy-container input {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.705);
+    padding: 0 0.7em;
+    height: 3em;
+    font-size: 1em;
+    flex-grow: 1;
+    outline: none;
+    width: 250px;
+}
+
+.copy-container input::selection {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.copy-button {
+    background-color: rgba(3, 3, 3, 0.827);
+    border-color: rgba(3, 3, 3, 0.827);
+
+    transition: background-color 0.4s ease, border-color 0.4s ease;
+}
+
+.copy-button:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+}

@@ -73,6 +73,13 @@ a {
     }
 }
 
+.Centre {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .Buttons {
     display: flex;
     margin: 0 auto;

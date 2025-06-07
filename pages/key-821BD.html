@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroid X — Claim key</title>
+    <link rel="shortcut icon" href="../assets/images/AsteroidIconBlack.ico">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/keys.css">
+</head>
+<body>
+    <main>
+        <div class="Centre">
+            <div class="copy-container">
+                <input type="text" id="key-box" title="Key">
+
+                <button type="button" class="button copy-button" onclick="copyToClipboard('key-box', 'clipboard-image')">
+                    <img id="clipboard-image" src="../assets/images/clipboard64.png" title="Clipboard">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const copyInput = document.getElementById('key-box');
+        copyInput.value = "key-release218s" // Key
+
+        const originalValue = copyInput.value;
+
+        // Prevent user from editing
+        copyInput.addEventListener('input', () => {
+            copyInput.value = originalValue;
+        });
+    </script>
+
+    <script src="../assets/js/key-system.js"></script>
+</body>
+</html>
