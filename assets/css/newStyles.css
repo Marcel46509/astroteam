@@ -71,7 +71,7 @@ a {
     -webkit-backdrop-filter: blur(var(--blur));
     backdrop-filter: blur(var(--blur));
     inset: 0;
-    height: 500px;
+    height: 400px;
 }
 
 .buttonsCenter {
