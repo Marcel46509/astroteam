@@ -23,7 +23,9 @@
 html {
     font-family: "Montserrat", sans-serif;
     color: rgba(255, 255, 255, 0.95);
-    
+
+    background: linear-gradient(to bottom, #121824, #121824);
+
     background:url('../images/pexels-stywo-1054218.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,6 +54,10 @@ a {
     position: absolute;
 }
 
+.inset0 {
+    inset: 0;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -63,15 +69,38 @@ a {
     padding-bottom: 6rem;
 }
 
-.container-gradient {
-    inset: 0;
-}
-
 .container-down {
     -webkit-backdrop-filter: blur(var(--blur));
     backdrop-filter: blur(var(--blur));
-    inset: 0;
     height: 400px;
+}
+
+.container-info {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+
+    padding: 0.5rem 1rem;
+    background-color: rgba(245, 245, 220, 0.116);
+
+    border-radius: 99999px;
+    border: 1.5px solid rgba(255, 255, 255, 0.134);
+
+    gap: 0.5rem;
+
+    -webkit-backdrop-filter: blur(0.7em);
+    backdrop-filter: blur(0.7em);
+
+    > img {
+        width: 1.1em;
+        opacity: 85%;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttonsCenter {
