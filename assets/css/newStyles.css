@@ -13,7 +13,10 @@
 }
 
 :root {
-    --blur: 0.1em
+    --blur: 0.07em;
+
+    --primary-border: rgba(188, 187, 187, 0);
+    --primary-hover-border: rgba(255, 255, 255, 0.271);
 }
 
 * {
@@ -30,23 +33,6 @@ html {
 html, body {
     margin: 0;
     padding: 0;
-}
-
-#stars {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
-
-.star {
-    position: absolute;
-    background: rgb(255, 255, 255, 0.6);
-    box-shadow: 0 0 5px rgba(198, 198, 198, 0.6);
-    border-radius: 50%;
-    animation: twinkle 3s infinite;
 }
 
 img {
@@ -70,6 +56,24 @@ a {
     inset: 0;
 }
 
+#stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    filter: blur(var(--blur));
+}
+
+.star {
+    position: absolute;
+    background: rgb(255, 255, 255, 0.6);
+    box-shadow: 0 0 5px rgba(198, 198, 198, 0.6);
+    border-radius: 50%;
+    animation: twinkle 3s infinite;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -78,13 +82,6 @@ a {
 
 .container-text {
     padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-
-.container-down {
-    -webkit-backdrop-filter: blur(var(--blur));
-    backdrop-filter: blur(var(--blur));
-    height: 400px;
 }
 
 .container-info {
@@ -103,10 +100,18 @@ a {
     -webkit-backdrop-filter: blur(0.7em);
     backdrop-filter: blur(0.7em);
 
+    transition: all 0.3s;
+
     > img {
         width: 1.1em;
         opacity: 85%;
     }
+}
+
+.container-info:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-hover-border);
 }
 
 .wrapper {
@@ -137,13 +142,13 @@ a {
     align-items: center;
     display: flex;
 
-    border: 1px solid rgba(188, 187, 187, 0);
+    border: 1px solid var(--primary-border);
     border-radius: 0.5em;
 
     gap: 0.6em;
     box-sizing: border-box;
     
-    transition: background-color 0.4s ease, color 0.4s ease;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
 
     > img {
         height: 45%;
@@ -154,7 +159,8 @@ a {
 .newButton:hover {
     background-color: rgba(255, 255, 255, 0.09);
     color: rgba(255, 255, 255, 0.9);
-    border-color: rgba(255, 255, 255, 0.171);
+    border-color: var(--primary-hover-border);
+    transform: scale(1.05);
 
     > img {
         opacity: 90%;
