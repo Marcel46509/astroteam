@@ -125,10 +125,10 @@
                 const topY = mouseY - bounds.top;
                 const centerX = leftX - bounds.width / 2;
                 const centerY = topY - bounds.height / 2;
-                const rotateX = (centerY / (bounds.height / 2)) * -20;
-                const rotateY = (centerX / (bounds.width / 2)) * 20;
+                const rotateX = (centerY / (bounds.height / 2)) * -10;
+                const rotateY = (centerX / (bounds.width / 2)) * 10;
 
-                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.03, 1.03, 1.03)`;
+                card.style.transform = `perspective(1000px) rotateX(${-rotateX}deg) rotateY(${-rotateY}deg) scale3d(1.03, 1.03, 1.03)`;
             });
 
             card.addEventListener('mouseleave', () => {
