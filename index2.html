@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Asteroid X — Peak Performance</title>
+
     <link rel="shortcut icon" href="assets/images/AsteroidIconBlack.ico">
+    
     <link rel="stylesheet" href="assets/css/newStyles.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/features.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
 </head>
 <body>
     <div id="stars"></div>
     <div class="absolute container-blur"></div>
+
+    <nav id="navbar-container">
+        <script src="assets/js/navbar.js"></script>
+    </nav>
 
     <header class="relative">
         <div class="absolute inset0"></div>
@@ -45,22 +53,28 @@
 
     <main>
         <section class="cards">
-            <div class="card">
-                <div class="card-icon">🚀</div>
-                <h3>High Speed & Performance</h3>
-                <p>Optimised execution and lightning-fast injection with Velocity API!</p>
+            <div class="card-div">
+                <div class="card">
+                    <div class="card-icon">🚀</div>
+                    <h3>High Speed & Performance</h3>
+                    <p>Optimised execution and lightning-fast injection with Velocity API!</p>
+                </div>
             </div>
-
-            <div class="card">
-                <div class="card-icon">🔒</div>
-                <h3>Secure & Safe</h3>
-                <p>Fully open-source and completely safe.</p>
+            
+            <div class="card-div">
+                <div class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Secure & Safe</h3>
+                    <p>Fully open-source and completely safe.</p>
+                </div>
             </div>
-
-            <div class="card">
-                <div class="card-icon">📝</div>
-                <h3>ScriptBlox</h3>
-                <p>Access thousands of scripts instantly with integrated ScriptBlox library!</p>
+            
+            <div class="card-div">
+                <div class="card">
+                    <div class="card-icon">📝</div>
+                    <h3>ScriptBlox</h3>
+                    <p>Access thousands of scripts instantly with integrated ScriptBlox library!</p>
+                </div>
             </div>
         </section>
     </main>
@@ -105,13 +119,15 @@
 
         // 3D Effect on features
 
-        const cards = document.querySelectorAll('.card');
+        const cards = document.querySelectorAll('.card-div');
         
         cards.forEach(card => {
             let bounds;
 
+            const div = card.firstElementChild;
+
             function updateBounds() {
-                bounds = card.getBoundingClientRect();
+                bounds = div.getBoundingClientRect();
             }
 
             card.addEventListener('mouseenter', () => {
@@ -125,14 +141,14 @@
                 const topY = mouseY - bounds.top;
                 const centerX = leftX - bounds.width / 2;
                 const centerY = topY - bounds.height / 2;
-                const rotateX = (centerY / (bounds.height / 2)) * -10;
-                const rotateY = (centerX / (bounds.width / 2)) * 10;
+                const rotateX = (centerY / (bounds.height / 2)) * 10;
+                const rotateY = (centerX / (bounds.width / 2)) * -10;
 
-                card.style.transform = `perspective(1000px) rotateX(${-rotateX}deg) rotateY(${-rotateY}deg) scale3d(1.03, 1.03, 1.03)`;
+                div.style.transform = `perspective(1000px) rotateX(${-rotateX}deg) rotateY(${-rotateY}deg) scale3d(1.03, 1.03, 1.03)`;
             });
 
             card.addEventListener('mouseleave', () => {
-                card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+                div.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
             });
 
             // Update bounds on window resize

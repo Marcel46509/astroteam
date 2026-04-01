@@ -27,7 +27,8 @@ html {
     font-family: "Montserrat", sans-serif;
     color: rgba(255, 255, 255, 0.95);
 
-    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    /*background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);*/
+    background: linear-gradient(135deg, #000000 0%, #1f1f1f 50%, #090909 100%);
 }
 
 html, body {
@@ -81,7 +82,7 @@ a {
 }
 
 .container-text {
-    padding-top: 6rem;
+    padding-top: 8rem;
 }
 
 .container-info {
@@ -90,7 +91,7 @@ a {
     justify-items: center;
 
     padding: 0.5rem 1rem;
-    background-color: rgba(245, 245, 220, 0.116);
+    background-color: rgba(245, 245, 220, 0.089);
 
     border-radius: 99999px;
     border: 1.5px solid rgba(255, 255, 255, 0.134);
@@ -99,6 +100,8 @@ a {
 
     -webkit-backdrop-filter: blur(0.7em);
     backdrop-filter: blur(0.7em);
+
+    cursor: default;
 
     transition: all 0.3s;
 
@@ -148,7 +151,7 @@ a {
     gap: 0.6em;
     box-sizing: border-box;
     
-    transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
 
     > img {
         height: 45%;
