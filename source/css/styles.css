@@ -35,7 +35,7 @@ html {
     top: 0;
     left: 0;
 
-    width: 100vh;
+    width: 100%;
     height: 95%;
 
     pointer-events: none;
@@ -209,7 +209,7 @@ footer {
 .footer {
     display: flex;
 
-    width: calc(80% - 4em);
+    width: calc(90% - 4em);
     padding: 0 0 4em;
 
     margin-left: auto;
@@ -222,6 +222,7 @@ footer {
     gap: 3em;
 
     text-align: left;
+    font-size: 17px;
 }
 
 .footer-column {
