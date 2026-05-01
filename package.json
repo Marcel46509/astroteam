@@ -1,0 +1,27 @@
+{
+  "name": "astroteam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && tsc",
+    "watch": "npm run clean && tsc --watch",
+    "clean": "rimraf ./compiled"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcel46509/astroteam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcel46509/astroteam/issues"
+  },
+  "homepage": "https://github.com/Marcel46509/astroteam#readme",
+  "description": "",
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "typescript": "^6.0.3"
+  }
+}
