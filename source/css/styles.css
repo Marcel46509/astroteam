@@ -276,3 +276,13 @@ footer {
         padding-top: 10em;
     }
 }
+
+@media (max-width: 650px) {
+    footer {
+        padding-top: 8em;
+    }
+
+    .footer {
+        display: grid;
+    }
+}
