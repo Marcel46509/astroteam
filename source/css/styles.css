@@ -75,14 +75,16 @@ html {
     z-index: 2;
 
     h1 {
-        font-size: 65px;
+        /* font-size: 65px; */
+        font-size: clamp(10px, 4.2vw, 80px);
         font-weight: 700;
     }
 
     h2 {
         color: rgb(210, 210, 210);
 
-        font-size: 21px;
+        /* font-size: 21px; */
+        font-size: clamp(10px, 1.38vw, 80px);
         font-weight: 400;
 
         width: 19em;
@@ -154,7 +156,8 @@ html {
     gap: 1em;
     padding-top: 0.5em;
 
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: clamp(10px, 1.3vw, 30px);
 
     a {
         all: unset;
