@@ -67,7 +67,7 @@ html {
     display: flex;
     flex-direction: column;
 
-    padding-top: 12vw;
+    padding-top: 25.7vh;
     padding-left: 10vw;
 
     gap: 1.5em;
@@ -101,7 +101,7 @@ html {
 }
 
 .page-right {
-    padding-top: 8vw;
+    padding-top: 16.4vh;
 
     padding-left: 0;
     padding-right: 9vw;
@@ -128,6 +128,7 @@ html {
 
     .page-text {
         padding-left: 0;
+        padding-top: 9vh;
 
         justify-content: center;
         justify-self: center;
