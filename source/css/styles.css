@@ -67,7 +67,7 @@ html {
     display: flex;
     flex-direction: column;
 
-    padding-top: 25.7vh;
+    padding-top: 25.6vh; /* 25.7vh */
     padding-left: 10vw;
 
     gap: 1.5em;
