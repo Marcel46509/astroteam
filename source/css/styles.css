@@ -90,6 +90,13 @@ html {
         width: 19em;
     }
 
+    h3 {
+        color: rgb(210, 210, 210);
+
+        font-size: clamp(18px, 1.38vw, 80px);
+        font-weight: 400;
+    }
+
     transform: translateY(15%);
     animation: reveal 0.9s forwards;
 }

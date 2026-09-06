@@ -1,6 +1,8 @@
 const redirect = document.getElementById("redirect");
 const routes = {
-    ["download"]: "https://gitlab.com/Marcel664/Asteroid-X-3/-/raw/main/Asteroid_Bootstrapper.exe",
+    ["download"]: "download.html",
+    ["executor"]: "https://gitlab.com/Marcel664/Asteroid-X-3/-/raw/main/Asteroid_Bootstrapper.exe",
+    ["external"]: "index.html",
     ["discord"]: "https://discord.gg/dy5MfKxmAM"
 };
 export default function init() {

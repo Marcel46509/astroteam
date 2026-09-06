@@ -5,3 +5,23 @@
 .dg {
     display: grid;
 }
+
+.cmls0 {
+    grid-template-columns: 0fr;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.tac {
+    text-align: center;
+}
+
+.pdl0 {
+    padding-left: 0;
+}
+
+.wvw {
+    width: 100vw;
+}
